@@ -1,0 +1,15 @@
+Steps: ["Int_Norm_DimRed_Eval_GE" , "Int_Clust_Markers_Annot_GE" , "Cerebro"]
+Tmp: "/mnt/beegfs/scratch/m_graa/tmp1/"
+############################################ analyses_int ############################################
+Int_Norm_DimRed_Eval_GE :
+  name.int : ["CB50_CTRL_MIF_Int_Seurat"]
+  input.list.rda : ["/mnt/beegfs/userdata/m_graa/pl_sc/projet_long_output/CB50_CTRL_GE/F200_C1300_M0-0.2_R0-1_G5/DOUBLETSFILTER_all/SCTransform/pca/dims17_res0.2/CB50_CTRL_GE_SCTransform_pca_17_0.2.rda,/mnt/beegfs/userdata/m_graa/pl_sc/projet_long_output/CB50_MIF_GE/F200_C1300_M0-0.2_R0-1_G5/DOUBLETSFILTER_all/SCTransform/pca/dims17_res0.2/CB50_MIF_GE_SCTransform_pca_17_0.2.rda"]
+  output.dir.int : ["/mnt/beegfs/userdata/m_graa/pl_sc/projet_long_output/"]
+  author.name : "maha_graa"
+  author.mail : "maha.graa@gustaveroussy.fr"
+  integration.method : "Seurat"
+
+Int_Clust_Markers_Annot_GE:
+  markfile : '/mnt/beegfs/userdata/m_graa/pl_sc/markfile1.xlsx'
+  keep.dims : 17
+  keep.res : 0.7

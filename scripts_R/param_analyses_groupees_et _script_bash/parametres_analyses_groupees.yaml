@@ -1,0 +1,15 @@
+Steps: ["Grp_Norm_DimRed_Eval_GE" , "Grp_Clust_Markers_Annot_GE" , "Cerebro"]
+Tmp: "/mnt/beegfs/scratch/m_graa/tmp1/"
+############################################ Grouped ############################################
+Grp_Norm_DimRed_Eval_GE :
+  name.grp : ["CB50_CTRL_MIF_int_Seurat"]
+  input.list.rda : ["/mnt/beegfs/userdata/m_graa/pl_sc/projet_long_output/CB50_CTRL_GE/F200_C1300_M0-0.2_R0-1_G5/DOUBLETSFILTER_all/SCTransform/pca/dims17_res0.2/CB50_CTRL_GE_SCTransform_pca_17_0.2.rda,/mnt/beegfs/userdata/m_graa/pl_sc/projet_long_output/CB50_MIF_GE/F200_C1300_M0-0.2_R0-1_G5/DOUBLETSFILTER_all/SCTransform/pca/dims17_res0.2/CB50_MIF_GE_SCTransform_pca_17_0.2.rda"]
+  output.dir.grp : ["/mnt/beegfs/userdata/m_graa/pl_sc/projet_long_output/"]
+  author.name : "maha_graa"
+  author.mail : "maha.graa@gustaveroussy.fr"
+  keep.norm : TRUE
+  norm.method : "SCTransform"
+
+Grp_Clust_Markers_Annot_GE:
+  keep.dims : 17
+  keep.res : 0.8
