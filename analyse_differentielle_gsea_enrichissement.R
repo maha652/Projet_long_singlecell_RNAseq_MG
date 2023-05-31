@@ -20,8 +20,8 @@ library(msigdbr)
 library(org.Hs.eg.db)
 library(stats)
 # Paramètres
-input_data <-  "C:/Users/m_graa/Desktop/paris_cite/projet_long/analyse_integre/CB50_CTRL_MIF_Int_Seurat_NORMKEPT_pca_17_0.7.rda"
-output_data <- "C:/Users/m_graa/Desktop/paris_cite/projet_long/differential_analyses/"
+input_data <-  "....projet_long/CB50_CTRL_MIF_Int_Seurat_NORMKEPT_pca_17_0.7.rda"
+output_data <- "....../projet_long/output/"
 clusters_to_select <- "10"  # 10 = Monocytes; 1 et 4 = Granulocytes
 
 # Chargement des données

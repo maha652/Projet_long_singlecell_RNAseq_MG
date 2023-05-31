@@ -10,8 +10,8 @@ library(Seurat)
 library(ggplot2)
 
 # Paramètres
-input_data_int <-"C:/Users/m_graa/Desktop/paris_cite/projet_long/analyse_integre/CB50_CTRL_MIF_Int_Seurat_NORMKEPT_pca_17_0.7.rda"
-output_data <- "C:/Users/m_graa/Desktop/paris_cite/projet_long/script_correction/traces_expression/"
+input_data_int <-".../projet_long/CB50_CTRL_MIF_Int_Seurat_NORMKEPT_pca_17_0.7.rda"
+output_data <- ".../output/traces_expression/"
 #genes_list <- c("CD14","FUT4","TFRC","CD34") # CD14 = monocytes; FUT4 = granulocytes; TFRC = érythroïdes; CD34 = cellules souches hématopoïétiques.
 #autres listes de gènes issues de https://www.proteinatlas.org/ et https://www.cell.com/cms/10.1016/j.molcel.2020.04.008/attachment/fe0af298-d8d0-49dc-b49b-bf44fec66827/mmc1.pdf
 #genes_list <- c("EPOR","KLF1","TFR2","CSF2RB","APOE","APOC1","CNRIP1","CD38","HBB") # Erythoïdes

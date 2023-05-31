@@ -10,7 +10,7 @@ library(Seurat)
 library(ggplot2)
 
 # Chargement des données
-input_data <- "C:/Users/m_graa/Desktop/paris_cite/projet_long/analyse_integre/CB50_CTRL_MIF_Int_Seurat_NORMKEPT_pca_17_0.7.rda"
+input_data <- ".../projet_long/CB50_CTRL_MIF_Int_Seurat_NORMKEPT_pca_17_0.7.rda"
 load(input_data)
 ctrl_mif <- sobj
 rm(sobj)
