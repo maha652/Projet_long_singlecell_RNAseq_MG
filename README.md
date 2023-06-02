@@ -4,11 +4,11 @@ Projet_long_singlecell_RNAseq_MG
 
 II) Project Description : 
 
-Perform single-cell RNA-seq analysis from "Seurat Object" to markers_diff file , volcano_plot  , dotplot ,barplot,ggplot and Featureplot .
+Perform single-cell RNA-seq analysis from "Seurat Object" to differentially expressed genes {markers_diff file , volcano_plot } ,Cell_proportions { dotplot ,barplot ,ggplot} and Expressions_plots {Featureplot}.
 
 Available Steps : 
 
-1) Analyse_differentielle_gsea_enrichissement (analyse_differentielle_gsea_enrichissement.R):
+1)Differentially expressed genes(analyse_differentielle_gsea_enrichissement.R):
 
 
 - markers_diff:csv file containing differentially expressed genes
@@ -19,13 +19,13 @@ Available Steps :
 
 - barplot : represents enrichment analysis result 
 
-2) Proportions_cellulaires (proportions_cellulaires.R ):
+2) Cell_proportions(proportions_cellulaires.R ):
 
 - Dataframe : cell proportions dataframe
 
 - ggplot : Cell proportions graph
 
-3) Tracés_expressions (tracés_expressions.R):
+3) Expressions_plots(tracés_expressions.R):
 
 - Featureplot : Gene expression on UMAPs
 
