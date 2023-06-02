@@ -1,4 +1,4 @@
-I )Project's Title : 
+I ) Project's Title : 
 
 Projet_long_singlecell_RNAseq_MG
 
@@ -32,7 +32,7 @@ Available Steps :
 
 III) Runing
 
-You should have your file "Seurat Object " resulting from sequencing of single cell suspension by calling  : 
+You should have your file "Seurat Object " resulting from sequencing of single cell suspension already transformed from a FastQ file by calling  : 
 
 - analyse_differentielle_gsea_enrichissement.R
 
