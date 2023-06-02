@@ -32,7 +32,7 @@ Available Steps :
 
 III) Runing
 
-You should have your file "Seurat Object " resulting from sequencing of single cell suspension already transformed from a FastQ file by calling  : 
+You should have your file "Seurat Object " resulting from sequencing of single cell suspension already transformed from a FastQ file as an input and run by calling  : 
 
 - analyse_differentielle_gsea_enrichissement.R
 
