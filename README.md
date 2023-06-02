@@ -44,7 +44,7 @@ IV) Added folder
 
 Params_pipeline_BIGR_et_scripts_bash : 
 
-- A folder containing the parameters to be applied during the various stages of the single-cell pipeline developed by the bioinformaticians on Gustave Roussy's bioinformatics platform for the three types of analysis: 
+A folder containing the parameters to be applied during the various stages of the single-cell pipeline developed by the bioinformaticians on Gustave Roussy's bioinformatics platform for the three types of analysis: 
 - Individual 
 - Grouped
 - Integrated 
