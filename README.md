@@ -40,6 +40,19 @@ You should have your file "Seurat Object " resulting from sequencing of single c
 
 - tracés_expressions.R 
 
+IV) Added folder 
+
+Params_pipeline_BIGR_et_scripts_bash : 
+
+- A folder containing the parameters to be applied during the various stages of the single-cell pipeline developed by the bioinformaticians on Gustave Roussy's bioinformatics platform for the three types of analysis: 
+- Individual 
+- Grouped
+- Integrated 
+
+and the corresponding bash scripts to launch each parameter file.
+For more details about the pipeline "single-cell analysis" , please find the wiki link :  
+https://github.com/gustaveroussy/single-cell/wiki
+
 
 
 
